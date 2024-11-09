@@ -1,0 +1,143 @@
+@media screen and (max-width:991px){
+
+    .nav-toggle{
+        display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .sub-header{
+        height:450px;
+    }
+    .in-sec-left{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .instructors-section{
+        height:800px;
+    }
+    .instructors-section-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .classes{
+        flex-direction: column;
+        width:100%;
+
+    }
+
+    .classes-section{
+        height: 230vh;
+    }
+
+    .classes-card p{
+        font-size: 1rem;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .map{
+        width:600px;
+        height: 200px;
+        margin-bottom:50px;
+    }
+
+}
+
+
+@media screen and (max-width:767px){
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    hr{
+        width: 80%;;
+    }
+    .sub-header{
+        height: 660px;
+    }
+    .sub-header-container{
+        flex-direction: column;
+    }
+    .sh-right{
+        border:none;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .in-sec-right{
+        flex-direction: column;
+    }
+
+    .instructors-section{
+        height: 200vh;
+    }
+
+    .footer-right{
+        width: 350px;
+    }
+}
+
+
+
+@media screen and (max-width:479px){
+
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+        line-height: 1.8rem;
+    }
+    input{
+        display: block;
+        width:300px;
+        border:0.1px solid rgb(61, 27, 0);
+        outline: none;
+    }
+    textarea{
+        display: block;
+        width:300px;
+        border:0.1px solid rgb(61, 27, 0);
+        outline: none;
+    }
+    .cls-bottom .price{
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .sbp p{
+        font-size: 12px;
+    }
+}
